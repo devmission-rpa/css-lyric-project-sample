@@ -1,0 +1,142 @@
+/*remove margins all around the edges of the page*/
+body {
+  margin: 0;
+}
+
+/*styles the hero banner with MJ picture and initials*/
+.hero {
+  height: 50vh;
+  width: 100vw;
+  background-color: #0a0507;
+  display: flex;
+  justify-content: center;
+}
+
+/*sets the height of the MJ picture in the hero banner*/
+.hero-img {
+  height: 50vh;
+  width: auto;
+}
+
+/*styles the MJ initials (color, size and positions them in the center*/
+.initials {
+  color: white;
+  font-weight: bold;
+  font-size: 12em;
+  text-align: center;
+  width: 33vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gugi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(hsl(51, 100%, 50%), #ff4000cc, #ef17178f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/*sets the font family and size for h1*/
+h1 {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/*sets the font family and size for h2*/
+h2 {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  text-align: center;
+}
+
+/*sets the font family and size for h1*/
+.title {
+  height: 50vh;
+  width: 100vw;
+}
+
+/*styles the color, size and shadows for the cards*/
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 16rem;
+  width: 36rem;
+  border-radius: 4%;
+  background-color: #f03d40;
+  color: #651840;
+  font-size: 1.6rem;
+  padding: 12px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+/* Creates 2 columns and sets the 2 cards side by side */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* Creates two columns of equal width */
+  gap: 10rem; /* Adds space between the cards */
+  display: flex;
+  justify-content: center; /* Horizontally center the grid */
+  align-items: center;
+  width: 100vw;
+  height: auto;
+}
+
+/* centers the text in the left hand card with the description of the song */
+.description {
+  text-align: center;
+}
+
+/* sets background image and size of the lyrics section */
+#lyrics-section {
+  background-image: url("images/MJ-lyrics.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  margin-top: 20rem;
+  margin-bottom: 4rem;
+  border: 1px solid black;
+}
+
+/* sets font family and centers and moves the lyrics to the right of the screen */
+.lyrics {
+  text-align: center;
+  padding-left: 69rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.1rem;
+}
+
+.video {
+    display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.footer {
+    display: flex;
+  justify-content: center;
+}
