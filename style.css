@@ -73,7 +73,7 @@ h2 {
   height: 18rem;
   width: 36rem;
   border-radius: 4%;
-  background-color: #F76B38;
+  background-image: linear-gradient(#FC7B03, #ff4000cc);
   color: #333333;
   font-size: 1.6rem;
   padding: 12px;
