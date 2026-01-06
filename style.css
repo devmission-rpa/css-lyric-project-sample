@@ -71,7 +71,7 @@ h2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   height: 18rem;
-  width: 36rem;
+  width: 40vw;
   border-radius: 4%;
   background-image: linear-gradient(#FC7B03, #ff4000cc);
   color: #080808;
@@ -99,7 +99,7 @@ h2 {
     2,
     1fr
   ); /* Creates two columns of equal width */
-  gap: 10rem; /* Adds space between the cards */
+  gap: 10vw; /* Adds space between the cards */
   display: flex;
   justify-content: center; /* Horizontally center the grid */
   align-items: center;
@@ -117,7 +117,8 @@ h2 {
   background-image: url("images/MJ-lyrics.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
+  max-width: 100%;
+  background-attachment: fixed;
   height: auto;
   margin-top: 20rem;
   margin-bottom: 4rem;
@@ -127,7 +128,8 @@ h2 {
 /* sets font family and centers and moves the lyrics to the right of the screen */
 .lyrics {
   text-align: center;
-  padding-left: 69rem;
+  padding-left: 48rem;
+  padding-right: 4rem;
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-style: normal;
